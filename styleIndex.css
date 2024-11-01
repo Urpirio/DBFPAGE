@@ -5,7 +5,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
     justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Jersey 20", sans-serif;
+    
     
    
 }
@@ -17,50 +18,71 @@ main{
     justify-items: center;
 }
 .H1{
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(255, 255, 255);
-    font-weight: 700;
+    font-weight: 100;
+    stroke:  #000000;stroke-width: 1px;-webkit-text-stroke-color: #000000;
+    text-align: center;
 }
 .P1{
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
-    font-weight: 500;
+    font-weight: 100;
+    padding-left: 5cm;
+    padding-right: 5cm;
+    text-align: center;
+
 }
 
 
 .LogoDragon{
-    height: 150px;width: 250px;margin-top: -1cm;
+    height: 150px;
+    width: 250px;
+    margin-top: -1cm;
 }
 .Iniciar{
-    color: rgb(255, 255, 255);margin-right: 1cm;text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 1cm;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
 }
 .Iniciar:hover{
-    border: 1px solid #4f8ca8;background-color: #4f8ca8; height: 1.47cm;color: rgb(255, 228, 180);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: 20px;
 }
 .HLT{
     display: flex; 
     justify-content: space-between; 
-    background-color: #4f8ca8;
+    background-color: #207ba5;
     height: 2cm;
     
 }
+.HLT:hover{
+    background-color: #207ba5;
+}
+
 .navegacion{
     display: flex; 
     justify-content: space-evenly; 
     background-color: #ff6600;
     height: 1cm;
     align-items: center;
-    opacity: 0.7;
     
+    
+}
+.navegacion:hover{
+    opacity: 1;
 }
 
 .N1{
-    text-decoration: none;color: rgb(255, 255, 255);font-weight: 600;
+    text-decoration: none;color: rgb(255, 255, 255);font-weight: 400;font-size: 20px;
 }
 .N1:hover{
-    color: rgb(147, 223, 246);
+    color: rgb(255, 255, 255);
     opacity: 1;
-    font-size: 20px;
+    font-size: 30px;
 }
 button{
     height: 100px;
@@ -72,14 +94,28 @@ button{
     opacity: 0.7;
 }
 button:hover{
-    margin-top: 1.5cm;
+    margin-top: 2cm;
     height: 110px;
     width: 410px;
     opacity: 1;
 }
 .Unirse{
-    font-size: 27px;
+    font-size: 32px;
     text-decoration: none;
     font-weight: 900;
     color: rgb(255, 255, 255);
+    font-family: "Jersey 20", sans-serif;
+}
+.ULPRT{
+    display: flex; 
+    justify-content: center; 
+    background-color: #207ba5;
+    height: 2cm;
+    margin-top: 8cm;
+}
+.Fh{
+    text-decoration: none;color: white; font-size: 30px;
+}
+.Fh:hover{
+    font-size: 35px;color: aliceblue; margin-top: 0.8cm;
 }
