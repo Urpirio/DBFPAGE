@@ -1,0 +1,85 @@
+body{
+    margin: 0; 
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgaTx1sJwRJQ7WQn0kOQ4_tGYyfmvjjqS9bOHq071NDwkRSZgTJWBt_5Nz97YKVUBiZaGEUYn0vZI-llg0ZEBjcdHeV7-BVZ5MsZNNV-3rVrSdK_RXWbzYTo_3eJNEL3XqiW_JHb2yR47EOftCwmAukkAuk60OYAAVMuDRE7_TcfqkHnBK9M8z60WporxgZ=s1120-rw);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+header{
+    opacity: 0.9;
+}
+main{
+    flex-direction: column; 
+    justify-items: center;
+}
+.H1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.P1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+
+.LogoDragon{
+    height: 150px;width: 250px;margin-top: -1cm;
+}
+.Iniciar{
+    color: rgb(255, 255, 255);margin-right: 1cm;text-decoration: none;
+}
+.Iniciar:hover{
+    border: 1px solid #4f8ca8;background-color: #4f8ca8; height: 1.47cm;color: rgb(255, 228, 180);
+}
+.HLT{
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #4f8ca8;
+    height: 2cm;
+    
+}
+.navegacion{
+    display: flex; 
+    justify-content: space-evenly; 
+    background-color: #ff6600;
+    height: 1cm;
+    align-items: center;
+    opacity: 0.7;
+    
+}
+
+.N1{
+    text-decoration: none;color: rgb(255, 255, 255);font-weight: 600;
+}
+.N1:hover{
+    color: rgb(147, 223, 246);
+    opacity: 1;
+    font-size: 20px;
+}
+button{
+    height: 100px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 2cm;
+    border: 1px solid #000000;
+    background-color: #FF7700;
+    opacity: 0.7;
+}
+button:hover{
+    margin-top: 1.5cm;
+    height: 110px;
+    width: 410px;
+    opacity: 1;
+}
+.Unirse{
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
