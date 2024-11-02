@@ -1,6 +1,6 @@
 body{
     margin: 0; 
-    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgaTx1sJwRJQ7WQn0kOQ4_tGYyfmvjjqS9bOHq071NDwkRSZgTJWBt_5Nz97YKVUBiZaGEUYn0vZI-llg0ZEBjcdHeV7-BVZ5MsZNNV-3rVrSdK_RXWbzYTo_3eJNEL3XqiW_JHb2yR47EOftCwmAukkAuk60OYAAVMuDRE7_TcfqkHnBK9M8z60WporxgZ=s1120-rw);
+    background-image: url("Recursos for Dr4gron b4ll F (b4ckground)/Pagina de inicio.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,9 +10,7 @@ body{
     
    
 }
-header{
-    opacity: 0.9;
-}
+
 main{
     flex-direction: column; 
     justify-items: center;
@@ -21,7 +19,9 @@ main{
     font-size: 70px;
     color: rgb(255, 255, 255);
     font-weight: 100;
-    stroke:  #000000;stroke-width: 1px;-webkit-text-stroke-color: #000000;
+    stroke:  #000000;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
     text-align: center;
 }
 .P1{
@@ -77,7 +77,10 @@ main{
 }
 
 .N1{
-    text-decoration: none;color: rgb(255, 255, 255);font-weight: 400;font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
 }
 .N1:hover{
     color: rgb(255, 255, 255);
@@ -91,13 +94,14 @@ button{
     margin-top: 2cm;
     border: 1px solid #000000;
     background-color: #FF7700;
-    opacity: 0.7;
+   
 }
 button:hover{
     margin-top: 2cm;
     height: 110px;
     width: 410px;
-    opacity: 1;
+    background-color: #FF7700;
+    
 }
 .Unirse{
     font-size: 32px;
@@ -114,8 +118,12 @@ button:hover{
     margin-top: 8cm;
 }
 .Fh{
-    text-decoration: none;color: white; font-size: 30px;
+    text-decoration: none;
+    color: white; 
+    font-size: 30px;
 }
 .Fh:hover{
-    font-size: 35px;color: aliceblue; margin-top: 0.8cm;
+    font-size: 35px;
+    color: aliceblue;
+     margin-top: 0.8cm;
 }
