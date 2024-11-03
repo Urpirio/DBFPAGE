@@ -11,6 +11,7 @@ header{
 }
 .logoH{
     height: 50px;
+    transition: all 300ms ease;
 }
 .logoH:hover{
     height: 55px;
@@ -41,6 +42,9 @@ form{
     outline: none;
     border: none;
 }
+::placeholder{
+    color: rgb(62, 62, 62);
+}
 
 .Bregistro{
     height: 1cm;
@@ -51,7 +55,8 @@ form{
     border-radius: 40px; 
     font-size: 20px;
     margin-top: 0.5cm;
-    border: 1px solid #ce5200;
+    border: none;
+    transition: all 300ms ease;
     
 }
 
@@ -64,12 +69,16 @@ form{
     margin-left: 0.3cm;
 }
 .TeCuenta{
-margin-left: 1.57cm;
+margin-left: 1.40cm;
 margin-top: 0.8cm; 
 color: rgb(0, 0, 0);
+transition: all 300ms ease;
 }
 .TeCuenta:hover{
+    margin-left: 1.37cm;
+margin-top: 0.8cm; 
     color: rgb(42, 42, 42);
+    font-size: 18px;
 }
 main{
     justify-items: center;
@@ -95,6 +104,7 @@ justify-content: center;
     text-decoration: none;
     color: white; 
     font-size: 30px;
+    transition: all 300ms ease;
 }
 .Fh:hover{
     font-size: 35px;
