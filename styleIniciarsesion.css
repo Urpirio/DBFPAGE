@@ -8,6 +8,7 @@ body{
 }
 .LogoH{
 height: 50px;
+transition: all 300ms ease;
 }
 .LogoH:hover{
     height: 55px;
@@ -43,6 +44,10 @@ h2{
     font-size: 18px;
     background-color: rgba(0, 0, 255, 0);
 }
+::placeholder{
+    color: rgb(62, 62, 62);
+    transition: all 300ms ease;
+}
 .BSesion{
     height: 1cm;
     width: 5cm;
@@ -52,6 +57,7 @@ h2{
     background-color: #ff6600;
     border: none;
     font-family: "Jersey 20", sans-serif;
+    transition: all 300ms ease;
 }
 .BSesion:hover{
     height: 1.2cm;
@@ -63,6 +69,7 @@ h2{
     margin-left: 5.3px;
     margin-top: 5px;
     color: rgb(0, 0, 0);
+    transition: all 300ms ease;
 }
 .ICrearCuenta:hover{
     color: rgb(79, 79, 79);
@@ -70,6 +77,7 @@ h2{
 }
 .olConLink{
     color: rgb(0, 0, 0);
+    transition: all 300ms ease;
 }
 .olConLink:hover{
     color: rgb(79, 79, 79);
@@ -85,6 +93,7 @@ footer{
     text-decoration: none;
     color: white; 
     font-size: 30px;
+    transition: all 300ms ease;
 }
 .Fh:hover{
     font-size: 35px;
