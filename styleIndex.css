@@ -46,6 +46,7 @@ main{
     text-decoration: none;
     font-size: 30px;
     font-weight: 400;
+    transition: all 300ms ease;
 }
 .Iniciar:hover{
     color: rgb(255, 255, 255);
@@ -57,7 +58,7 @@ main{
     justify-content: space-between; 
     background-color: #207ba5;
     height: 2cm;
-    
+    transition: all 300ms ease;
 }
 .HLT:hover{
     background-color: #207ba5;
@@ -69,8 +70,7 @@ main{
     background-color: #ff6600;
     height: 1cm;
     align-items: center;
-    
-    
+    transition: all 300ms ease;   
 }
 .navegacion:hover{
     opacity: 1;
@@ -81,6 +81,7 @@ main{
     color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 20px;
+    transition: all 300ms ease;
 }
 .N1:hover{
     color: rgb(255, 255, 255);
@@ -94,13 +95,14 @@ button{
     margin-top: 2cm;
     border: 1px solid #000000;
     background-color: #FF7700;
+    transition: all 300ms ease;
    
 }
 button:hover{
     margin-top: 2cm;
     height: 110px;
     width: 410px;
-    background-color: #FF7700;
+    background-color: #e76d02;
     
 }
 .Unirse{
@@ -121,6 +123,7 @@ button:hover{
     text-decoration: none;
     color: white; 
     font-size: 30px;
+    transition: all 300ms ease;
 }
 .Fh:hover{
     font-size: 35px;
