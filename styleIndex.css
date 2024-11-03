@@ -6,8 +6,6 @@ body{
     background-size: cover;
     justify-content: center;
     font-family: "Jersey 20", sans-serif;
-    
-    
    
 }
 
@@ -87,6 +85,40 @@ main{
     color: rgb(255, 255, 255);
     opacity: 1;
     font-size: 30px;
+}
+.Series{
+    border: none;
+    background-color: #ff770000;
+    font-size: 20px;
+    outline: none;
+    font-family: "Jersey 20", sans-serif;
+    color: white;
+    
+}
+.SeriesOP{
+    color: #000000;
+}
+.Mangas{
+    border: none;
+    background-color: #ff770000;
+    font-size: 20px;
+    outline: none;
+    font-family: "Jersey 20", sans-serif;
+    color: white;
+}
+.MangasOP{
+    color: #000000;
+}
+.Peliculas{
+    border: none;
+    background-color: #00000000;
+    font-size: 20px;
+    outline: none;
+    font-family: "Jersey 20", sans-serif;
+    color: white;
+}
+.PeliculasOP{
+    color: #000000;
 }
 button{
     height: 100px;
