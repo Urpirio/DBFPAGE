@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: "Jersey 20", sans-serif;
+}
+header{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.inheader{
+    background-color: #207ba5;
+    justify-content: space-between;
+    display: flex;
+}
+.inheaderNavegation{
+    background-color: #ff6600;
+    justify-content: space-evenly;
+    display: flex;
+}
+.Nvlink{
+    text-decoration: none;
+    color: aliceblue;
+}
+.Nvlinks{
+    text-decoration: none;
+    color: black;
+}
+main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #207ba5;
+}
+.section1{
+    justify-content: center;
+    display: flex;
+}
+.section2{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.53);
+    border-radius: 40px;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+.LogoDBSUPER{
+    height: 120px;
+}
+.DBSUPER{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ADBSUPER{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6cm;
+    width: 8cm;
+}
+.imgDBSUPER{
+    height: 100px;
+}
+.LogoDBGT{
+    height: 90px;
+}
+.DBGT{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ADBGT{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6cm;
+    width: 8cm;
+}
+.imgDBGT{
+    height: 100px;
+}
+.LogoDBZ{
+    height: 144px;
+}
+
+.DBZ{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ADBZ{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6cm;
+    width: 8cm;
+}
+.imgDBZ{
+    height: 100px;
+}
+.LogoDBDAIMA{
+    height: 108px;
+}
+.DBDAIMA{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ADBDAIMA{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6cm;
+    width: 8cm;
+}
+.imgDBDAIMA{
+    height: 100px;
+}
+.LogoDB{
+    height: 100px;
+}
+.DB{
+    justify-content: space-evenly;
+    display: flex;
+}
+.ADB{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 6cm;
+    width: 8cm;
+}
+.imgDB{
+    height: 100px;
+}
