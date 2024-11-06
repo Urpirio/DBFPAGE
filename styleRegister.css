@@ -82,7 +82,7 @@ margin-top: 0.8cm;
 }
 main{
     justify-items: center;
-
+    margin-bottom: 1cm;
 }
 header{
     justify-items: center;
@@ -109,7 +109,7 @@ justify-content: center;
 .Fh:hover{
     font-size: 35px;
     color: aliceblue;
-     margin-top: 0.8cm;
+    margin-top: 0.8cm;
 }
 
 
