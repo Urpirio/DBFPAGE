@@ -11,11 +11,24 @@ header{
     background-color: #207ba5;
     justify-content: space-between;
     display: flex;
+    height: 2cm;
+    align-items: center;
 }
 .inheaderNavegation{
     background-color: #ff6600;
     justify-content: space-evenly;
     display: flex;
+    align-items: center;
+    height: 1cm;
+    font-size: 20px;
+}
+.Imgheader{
+    height: 110px;
+    
+}
+.InicioS{
+    color: aliceblue;
+    margin-right: 1cm;
 }
 .Nvlink{
     text-decoration: none;
@@ -34,37 +47,58 @@ main{
 .section1{
     justify-content: center;
     display: flex;
+    align-items: center;
+    height: 1.5cm;
+}
+.search{
+    height: 1cm;
+}
+.Sbtn{
+    height: 1cm;
 }
 .section2{
     justify-content: center;
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.53);
-    border-radius: 40px;
+    border-radius: 20px;
     margin-left: 0.5cm;
     margin-right: 0.5cm;
     margin-bottom: 0.5cm;
 }
 .LogoDBSUPER{
     height: 120px;
+    margin-left: 0.3cm;
 }
 .DBSUPER{
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
 }
 .ADBSUPER{
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.996);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.637);
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 6cm;
-    width: 8cm;
+    height: 7cm;
+    width: 7.5cm;
+    margin-left: 0.1cm;
+    margin-right: 0.1cm;
+    
 }
 .imgDBSUPER{
-    height: 100px;
+    height: 150px;
+    width: 260px;
+    border-radius: 10px;
+}
+.BtnDBSUPER{
+    height: 35px;
+    width: 100px;
+    background-color: #ff6600;
+    color: aliceblue;
+    border-radius: 20px;
 }
 .LogoDBGT{
     height: 90px;
@@ -129,6 +163,7 @@ main{
 }
 .imgDBDAIMA{
     height: 100px;
+    width: 200px;
 }
 .LogoDB{
     height: 100px;
